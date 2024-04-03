@@ -4,7 +4,7 @@ module.exports = function(app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'http://localhost:8080',  // Update the port if necessary
+            target: 'https://eventicbackendfinal-production.up.railway.app/',  // Update the port if necessary
             changeOrigin: true,
           
         })

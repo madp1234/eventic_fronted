@@ -13,7 +13,7 @@ const success = (success_msg) => toast.success(success_msg);
 const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await fetch('api/admin/login', {
+    const response = await fetch('/api/admin/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
