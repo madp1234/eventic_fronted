@@ -1,0 +1,65 @@
+.title {
+    font-size: 4vw;
+    color:white;
+    background-color: heading;
+    text-align: center;
+    margin-bottom: 50px;
+  
+    /* Align the text center */
+    /* Add any other styles you want for the heading */
+  }
+
+.service {
+    width: 80%;
+  
+    margin: 3rem auto;
+    margin-block: 4rem;
+  }
+  
+  .service_box {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-between; /* Distribute items along the main axis (row by default) */
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .service_box_item {
+    flex: 0 0 calc(25% - 1rem); /* Set the initial size for 4 items in a row */
+    padding: 2rem;
+    background-color: transparent;
+    border: 2px solid   #adb0ea; /* Add border style here */
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 1rem; /* Add margin between rows */
+  }
+  
+  
+  .service_box_item:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 0px 20px  #adb0ea; 
+  }
+  
+  .service_box_item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Adjust border radius as needed */
+  }
+  
+  .service_box_item_step span {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    background-color: var(--icons-color);
+    color: var(--shadow-dark-color);
+    margin-bottom: 1rem;
+  }
+  
+ 
+  @media screen and (max-width: 30em) {
+    .service_box_item {
+      flex: 0 0 100%; /* Adjust size for 1 item in a column on even smaller screens */
+    }
+  }
+  
+  
