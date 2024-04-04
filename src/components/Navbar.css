@@ -307,7 +307,7 @@ a {
   line-height: 40px; /* Center text vertically */
   text-align: center;
   background-color: transparent; /* Background color */
-  color: #333; /* Text color */
+  color: #fff; /* Text color */
   text-decoration: none;
    
   transition: background-color 0.3s ease; 

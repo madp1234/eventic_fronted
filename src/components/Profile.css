@@ -3,7 +3,7 @@
  
     width: 200px;
     height:auto;
-    background-color: #f5f5f5;
+    background-color: transparent;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -35,7 +35,7 @@
   
   .profile_name {
     font-size: 32px;
-    color: #333;
+    color: #fff;
     margin-bottom: 15px;
   }
   
